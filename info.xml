@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="it.kainuk.grassrootscaller" type="module">
+  <file>grassrootscaller</file>
+  <name>Grassroots Caller</name>
+  <description>Send call and SMS instructions from CiviCRM to a mobile handset</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Klaas Eikelboom</author>
+    <email>klaas@kainuk.it</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://FIXME</url>
+    <url desc="Documentation">http://FIXME</url>
+    <url desc="Support">http://FIXME</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2019-04-09</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.12</ver>
+  </compatibility>
+  <comments>We just started</comments>
+  <civix>
+    <namespace>CRM/GRC</namespace>
+  </civix>
+</extension>

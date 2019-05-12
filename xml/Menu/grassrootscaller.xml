@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/admin/setting/grassrootscaller</path>
+    <page_callback>CRM_Admin_Form_Generic</page_callback>
+    <title>Grass Roots Caller Configuration</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/grassrootscaller/callphone</path>
+    <page_callback>CRM_GRC_Form_CallPhone</page_callback>
+    <title>CallPhone</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/grassrootscaller/sendsms</path>
+    <page_callback>CRM_GRC_Form_SendSMS</page_callback>
+    <title>SendSMS</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
